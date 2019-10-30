@@ -16,7 +16,7 @@ html {
   text-align:justify;
   }
 
-body {background-attachment: fixed;}  
+body {background-attachment: fixed;margin:0;}  
 
 #cuerpo {
   width: 1500px;
