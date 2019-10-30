@@ -16,7 +16,7 @@ html {
   text-align:justify;
   }
 
-body {background-attachment: fixed;}  
+body {background-attachment: fixed;margin:0;}  
 
 #cuerpo {
   width: 1500px;
@@ -68,28 +68,30 @@ background-color: #E02F2F;
 
 #opinion {
   width:60%;
-  padding:0px 30px ;
   float:left;
+  margin-bottom: 60px;
 }
 
 #formulario {
   width: 40%;
+  padding: 0px 20px;
   float:left;
 }
 
 form {
+  margin: 0 auto;
   width: 100%;
   padding: 0% 8%;
-  padding-top: 30px;
   box-sizing: border-box; 
-  margin-top: 20px;
   border: 1px solid graytext;
   border-radius: 7px;
 }
 
 form:hover {
-  border: 8px solid #123456;
-  transition: 0.2s;
+  border:8px solid #123456;
+  margin: -8px;
+  transition: 0.3s;
+  background-color:  white;
 }
 
 h2 {
@@ -97,7 +99,7 @@ h2 {
   text-align: center;
   margin: 0;
   font-size: 30px;
-  margin-bottom: 26px;
+  margin: 26px 0px ;
 }
 
 input, textarea {
@@ -120,7 +122,8 @@ textarea {
 
 #boton {
   background-color: #123456;
-  color: white;
+  border:none;
+  color: #F4F4F3;
   padding: 20px ;
   border-radius: 7px; 
   font-size: 20px;
@@ -134,21 +137,6 @@ textarea {
   margin-bottom: 25px;
   margin-top: -5px;
 }
-
-@media (max-width: 480px) {
-  form{
-    width: 100%;
-  }
-}
-
-
-
-
-
-
-
-
-
 
    
 #pie {
@@ -199,7 +187,27 @@ color:#F4F4F3;}
 
 @media only screen and (max-width:1500px) {
 
-  #cuerpo { margin:auto ;padding:0% 4%; width:100%;}}
+  #cuerpo { margin:auto ;padding:0% 4%; width:100%;}
+  #formulario {height: 80%; margin-top: auto; margin-bottom: auto;}
+  }
+
+
+@media only screen and (max-width:1225px) {
+  #portada{width:100%;margin-bottom: }
+  
+  #opinion {width: 100%;}
+
+  #formulario {width: 100%;}
+
+  form:hover {
+  border: 8px solid #123456;
+  transition: 0.2s;
+  margin-bottom: -16px;
+}
+
+
+}
+
 
   
 
